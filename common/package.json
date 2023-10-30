@@ -1,6 +1,6 @@
 {
-  "name": "@100xdevs/common",
-  "version": "1.0.2",
+  "name": "@nani29/common",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zod": "^3.21.4"
+    "zod": "^3.22.4"
   }
 }

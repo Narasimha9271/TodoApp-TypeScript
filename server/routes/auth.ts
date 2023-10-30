@@ -15,7 +15,7 @@ router.post('/signup', async (req, res) => {
     }
     const username = parsedInput.data.username 
     const password = parsedInput.data.password 
-    
+
     const user = await User.findOne({ username: parsedInput.data.username });
     if (user) {
       res.status(403).json({ message: 'User already exists' });
